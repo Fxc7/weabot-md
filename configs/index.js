@@ -8,7 +8,7 @@ global.watermark = "𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡 𝔹𝕆𝕋 𝕄𝕦𝕝�
 global.packname = "Created By";
 global.authorname = "Farhannn";
 global.language = true;
-global.ownerNumber = ["628311800241@s.whatsapp.net"];
+global.ownerNumber = ["0@s.whatsapp.net"];
 global.thumbnail = fs.readFileSync("./images/thumbnail.jpg");
 global.responseEN = {
   isCreators: "*Owner Only*",
