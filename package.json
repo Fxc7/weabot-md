@@ -1,5 +1,5 @@
 {
-	"name": "fxc7",
+	"name": "Fxc7",
 	"version": "0.0.1-fxc7",
 	"description": "WhatsApp Bot Multi Device Version..",
 	"main": "index.js",
@@ -17,7 +17,6 @@
 	"license": "MIT",
 	"dependencies": {
 		"@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
-		"ascii-table": "^0.0.9",
 		"axios": "^0.24.0",
 		"cfonts": "^2.9.1",
 		"chalk": "4.1.2",
@@ -33,8 +32,6 @@
 		"path": "^0.12.7",
 		"perf_hooks": "^0.0.1",
 		"performance-now": "^2.1.0",
-		"typedoc": "^0.22.10",
-		"typescript": "^4.5.4",
 		"util": "^0.12.4"
 	},
 	"repository": {
