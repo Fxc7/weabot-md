@@ -1,0 +1,48 @@
+{
+	"name": "fxc7",
+	"version": "0.0.1-fxc7",
+	"description": "WhatsApp Bot Multi Device Version..",
+	"main": "index.js",
+	"scripts": {
+		"start": "node connection",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Bot",
+		"WhatsApp",
+		"Whatsapp",
+		"md"
+	],
+	"author": "FarhanXCode7",
+	"license": "MIT",
+	"dependencies": {
+		"@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
+		"ascii-table": "^0.0.9",
+		"axios": "^0.24.0",
+		"cfonts": "^2.9.1",
+		"chalk": "4.1.2",
+		"child_process": "^1.0.2",
+		"file-type": "16.5.0",
+		"fluent-ffmpeg": "^2.1.2",
+		"form-data": "^4.0.0",
+		"fs": "^0.0.1-security",
+		"human-readable": "^0.2.1",
+		"moment-timezone": "^0.5.34",
+		"ora": "5.4.1",
+		"os": "^0.1.2",
+		"path": "^0.12.7",
+		"perf_hooks": "^0.0.1",
+		"performance-now": "^2.1.0",
+		"typedoc": "^0.22.10",
+		"typescript": "^4.5.4",
+		"util": "^0.12.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Fxc7/weabot-md.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Fxc7/weabot-md/issues"
+	},
+	"homepage": "https://github.com/Fxc7/weabot-md#readme"
+}
