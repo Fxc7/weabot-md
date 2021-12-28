@@ -122,8 +122,6 @@ module.exports = async (xcoders, x) => {
 		const isQuotedDocument = (type == "extendedTextMessage") && content.includes("documentMessage");
 		const isQuotedVideo = (type == "extendedTextMessage") && content.includes("videoMessage");
 		const isQuotedSticker = (type == "extendedTextMessage") && content.includes("stickerMessage");
-		
-		if(!isCreators && true) return;
 
 		switch (command) {
 			case "statistic":
