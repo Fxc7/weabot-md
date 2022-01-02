@@ -15,7 +15,7 @@ exports.getBuffer = this.getBuffer = (url) => {
 			},
 			responseType: "arrayBuffer"
 		})
-		.then(({ data }) => resolve(Buffer.from(data), "base64"))
+		.then(({ data }) => resolve(data))
 		.catch(reject);
 	});
 };
