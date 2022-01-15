@@ -13,7 +13,7 @@ exports.getBuffer = this.getBuffer = (url) => {
 				DNT: 1,
 				"Upgrade-Insecure-Request": 1
 			},
-			responseType: "arrayBuffer"
+			responseType: "arraybuffer"
 		})
 		.then(({ data }) => resolve(data))
 		.catch(reject);
